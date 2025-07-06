@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description: "Take care of people's pets responsively with Petsoft",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
